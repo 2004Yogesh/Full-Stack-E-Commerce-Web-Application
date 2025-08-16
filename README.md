@@ -131,7 +131,7 @@ A **huge thanks** to [JavaScript Mastery](https://www.youtube.com/c/JavaScriptMa
 1. Clone the repository
 
    ```bash
-   git clone https://github.com/followDev/eCommerce-Fullstack.git
+   git clone https://github.com/2004Yogesh/Full-Stack-E-Commerce-Web-Application
    cd eCommerce-Fullstack
    ```
 
@@ -152,4 +152,5 @@ A **huge thanks** to [JavaScript Mastery](https://www.youtube.com/c/JavaScriptMa
 ---
 
 ✨ **Author**: [K. R. Yogesh](https://github.com/2004Yogesh)
+
 
