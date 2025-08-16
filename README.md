@@ -1,91 +1,155 @@
-# Full Stack E-Commerce Clothing Website
-This project is a full stack e-commerce website built with Next js. I created this project as an exercise to develop my web development skills, especially to learn about Next js.
+# 🛍️ Full Stack E-Commerce Clothing Website
 
-## Table of contents
+An elegant and fully functional **full-stack e-commerce platform** built with **Next.js**, powered by **Sanity CMS** for product management, and integrated with **Stripe** for secure payments.
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-  - [Credit](#credit)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
-- [Getting Started](#getting-started)
+This project was created as part of my journey to master **Next.js** and full-stack development.
 
+![Next.js](https://img.shields.io/badge/Next.js-000000?logo=nextdotjs\&logoColor=white)
+![Sanity](https://img.shields.io/badge/Sanity-EF534F?logo=sanity\&logoColor=white)
+![Stripe](https://img.shields.io/badge/Stripe-626CD9?logo=stripe\&logoColor=white)
+![Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-000000?logo=vercel\&logoColor=white)
 
-## Overview
+---
 
-### The challenge
+## 📑 Table of Contents
 
-- Build out the project to the designs provided
-- Implementing cart functionality 
-- Connecting to Sanity as back end database for e-commerce
-- Connecting Stripe APIs to power online payment processing for e-commerce
+* [Overview](#-overview)
+* [The Challenge](#-the-challenge)
+* [Screenshots](#-screenshots)
+* [Live Demo](#-live-demo)
+* [Features](#-features)
+* [Built With](#-built-with)
+* [What I Learned](#-what-i-learned)
+* [Future Improvements](#-future-improvements)
+* [Useful Resources](#-useful-resources)
+* [Acknowledgments](#-acknowledgments)
+* [Getting Started](#-getting-started)
 
-### Screenshot
-![Design overview for Dine Market e-commerce](./src/assets/header-section.png)
-For now the search bar is only for styling purposes and doesn't work properly yet
+---
 
-### Links
-The live site is deployed in vercel, but it seems that vercel can't render swiper js. In the meantime i'm still trying to find a solution
-- [Live Site URL](https://full-stack-ecommerce-clothing-web.vercel.app/)
+## 🔎 Overview
 
-### Credit
-[Figma Web Design & UI kit i used for this project is design by Weird Design Studio](https://ui8.net/ui-market/products/e-commerce-ui-website-design?status=7)
+**Dine Market** is a modern e-commerce clothing website with the following highlights:
 
-## My process
+* Responsive UI based on Figma design
+* Dynamic product management via **Sanity CMS**
+* Secure checkout powered by **Stripe**
+* User notifications with **react-hot-toast**
+* Fun checkout celebration 🎉 with **canvas-confetti**
 
-### Built with
+---
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- [Next JS](https://nextjs.org/) - React Framework for Production
-- [Sanity](https://www.sanity.io/) - Sanity is a customizable solution that treats content as data to power digital business.
-- [Stripe](https://stripe.com/en-gb-us) - APIs to power online payment processing for e-commerce
-- [react-hot-toast](https://react-hot-toast.com/) - react library that adds beautiful notifications to our react application. 
-- [react icons](https://react-icons.github.io/react-icons/) - JS library to add icons
-- [swiper js](https://swiperjs.com/) - JS library to add slider component
-- [canvas-confetti](https://www.npmjs.com/package/canvas-confetti) - Lightweight JS plugin to create a confetti celebration explosion effect. It draws confetti graphics on the HTML canvas element. 
+## 🏆 The Challenge
 
-### What I learned
+* Implement fully functional **shopping cart**
+* Connect **Sanity** backend for product data
+* Integrate **Stripe APIs** for payment gateway
+* Style and structure project based on **Weird Design Studio’s UI Kit**
+* Add responsive **Swiper.js** product sliders
 
-I learned how to connect stripe as payment gate for e-commerce. Full code for connecting to stripe in /pages/api/stripe.js
-![payment with stripe](./src/assets/payment.png)
+---
 
-The confetti effect is implemented on the payment success page after the user successfully checkouts their cart
-![payment success](./src/assets/success-pay.png)
+## 📸 Screenshots
 
-### Continued development
-The development of this project can be continued by adding a search filter functionality, an e-commerce newsletter, activate the slider function for product section in homepage. In the near future, I'm going to explore react js search filters and maybe add that functionality myself.
+> ✨ *Design overview for Dine Market e-commerce.*
+> *(For now, the search bar is only styled but not yet functional.)*
 
-### Useful resources
-- [UI/UX Design Resources](https://ui8.net/) - This website provide many UI/UX design, some are even free.
-- [Tutorial Modern Full Stack ECommerce React Application with Stripe by JavaScript Mastery](https://www.youtube.com/watch?v=4mOkFXyxfsU&t=10459s) - This youtube tutorial really helps in understanding Next js and the use of sanity and stripe for e-commerce
-- [Swiper React Components](https://swiperjs.com/react#styles)
-- [Customize Prev/Next Button of Swiper Arrows](https://www.timo-ernst.net/blog/2020/09/12/arrows-in-react-swiper-js-how-to-customize-prev-next-button/)
+![App Screenshot Placeholder](./screenshot.png)
 
+---
 
-## Link
+## 🌍 Live Demo
 
-- Github - (https://github.com/followDev/eCommerce-Fullstack.git)
+🚧 Currently deployed on **Vercel** (Swiper.js rendering issue under investigation).
 
+🔗 **[Live Site URL](https://full-stack-e-commerce-web-application.onrender.com)**
+🔗 **[GitHub Repository](https://github.com/2004Yogesh/Full-Stack-E-Commerce-Web-Application)**
 
-## Acknowledgments
+---
 
-A HUGE Thanks to Javascript Mastery youtube channel which really helps me in learning about web development. I recommend this channel to everyone who wants to learn about web development and javascript
+## ✨ Features
 
+* 🛒 Add to cart & checkout flow
+* 💳 Stripe integration for payments
+* 📦 Sanity CMS for product catalog
+* 🔔 Toast notifications for actions
+* 🎉 Confetti animation after payment success
+* 📱 Responsive layout with Grid & Flexbox
 
-## Getting Started
+---
 
-To run the development server:
+## 🛠️ Built With
 
-```bash
-npm run dev
-```
+* ⚛️ **Next.js** – React Framework for Production
+* 🗄️ **Sanity** – Headless CMS for content & product management
+* 💳 **Stripe** – Payment gateway API
+* 🎨 **CSS Grid, Flexbox, Custom Properties**
+* 🔔 **React Hot Toast** – Beautiful notifications
+* 🎭 **React Icons** – Icon library
+* 🌀 **Swiper.js** – Product slider
+* 🎉 **Canvas Confetti** – Checkout success animation
+
+---
+
+## 📚 What I Learned
+
+* Setting up a **Stripe checkout session** in Next.js (`/pages/api/stripe.js`)
+* Managing product data dynamically with **Sanity**
+* Implementing **confetti animation** for payment success
+* Deploying full-stack apps to **Vercel**
+
+---
+
+## 🚀 Future Improvements
+
+* 🔍 Add **search & filter** functionality
+* 📰 Implement **newsletter subscription**
+* 💾 Add **wishlist & order history**
+* 🛠️ Optimize performance & fix Swiper.js on Vercel
+
+---
+
+## 📖 Useful Resources
+
+* 🎨 **[UI/UX Design Resources](https://uidesigndaily.com/)** – Free design assets
+* 🎥 **[JavaScript Mastery – Full Stack E-Commerce Tutorial](https://www.youtube.com/c/JavaScriptMastery)**
+* 📘 **[Swiper React Components](https://swiperjs.com/react)**
+* 🛠️ **[Customize Swiper Arrows](https://swiperjs.com/demos)**
+
+---
+
+## 🙏 Acknowledgments
+
+A **huge thanks** to [JavaScript Mastery](https://www.youtube.com/c/JavaScriptMastery) for creating such valuable tutorials for the developer community. Highly recommended for anyone learning **JavaScript** & **web development**.
+
+---
+
+## 🛠️ Getting Started
+
+### Installation
+
+1. Clone the repository
+
+   ```bash
+   git clone https://github.com/followDev/eCommerce-Fullstack.git
+   cd eCommerce-Fullstack
+   ```
+
+2. Install dependencies
+
+   ```bash
+   npm install
+   ```
+
+3. Run the development server
+
+   ```bash
+   npm run dev
+   ```
+
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+---
+
+✨ **Author**: [K. R. Yogesh](https://github.com/2004Yogesh)
+
